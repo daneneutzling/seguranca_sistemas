@@ -16,8 +16,7 @@
 <p><b>Ataque: </b> ataque ao sistema, derivado de uma ameaça inteligente, ou seja, violar a segurança do sistema.</p>
 
 <ul>
-  <li><b>Ataques Passivos:</b>
-    <p>tenta descobrir ou utilizar informações do sistema, mas não afeta os seus recursos.</p>
+  <li><b>Ataques Passivos:</b> tenta descobrir ou utilizar informações do sistema, mas não afeta os seus recursos.
     <p>O objetivo é obter informações que estão sendo transmitidas e pode ser subdividido em:</p>
     <ul>
       <ol><b>Vazamento de conteúdo de mensagem:</b> acesso a informações sensíveis/confidenciais.</ol>
@@ -25,10 +24,8 @@
     </ul>
   </li>
   
-  <li><b>Ataques Ativos:</b>
-    <p>tenta alterar recursos do sistema ou afetar sua operação.</p>
-    <p>Esses ataques envolvem alguma modificação do fluxo de dados ou a criação de um fluxo falso.</p>
-    <p>Podem ser subdivididos em:</p>
+  <li><b>Ataques Ativos:</b> tenta alterar recursos do sistema ou afetar sua operação.
+    <p>Esses ataques envolvem alguma modificação do fluxo de dados ou a criação de um fluxo falso e podem ser subdivididos em:</p>
     <ul>
       <ol><b>Disfarce:</b> ocorre quando uma entidade finge ser outra. Geralmente é integrado junto com uma das outras formas de ataque ativo.</ol>
       <ol><b>Repasse:</b> captura passiva de uma unidade de dados e sua subsequente retransmissão para produzir um efeito não autorizado.</ol>
