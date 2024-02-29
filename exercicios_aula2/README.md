@@ -57,8 +57,7 @@
 
 <p><b>Modelo de Cifra Simétrica:</b></p>
 <p> Também chamada de encriptação convencional ou de chave única, era o único tipo em uso antes do desenvolvimento da encriptação por chave pública na década de 1970.</p>
-![image](https://github.com/daneneutzling/seguranca_sistemas/assets/91130447/4e419692-61fb-40c0-b632-d01e477449ee)
-
+<img src="https://github.com/daneneutzling/seguranca_sistemas/assets/91130447/4e419692-61fb-40c0-b632-d01e477449ee">
 
 <br>
 
