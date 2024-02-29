@@ -1,6 +1,6 @@
 <h2>Introdução e Técnicas Clássicas de Criptografia</h2>
 
-<h3>Conceitos:</h3>
+<h3>Conceitos Básicos:</h3>
 <ul>
   <li><b>Integridade:</b> Garantia de que as informações e programas só sejam alterados de forma autorizada, sem manipulações. </li>
   <li><b>Disponibilidade:</b> Assegura que os sistemas operem prontamente e seus serviços não quem indisponíveis para usuários autorizados. </li>
@@ -34,3 +34,44 @@
     </u>  
   </li>
 </ul>
+
+<br>
+
+<h3>Criptografia:</h3>
+<p>É o processo de transformar informações legíveis em um formato ilegível e incompreensível, com objetivo de proteger as informações.</p>
+
+<h3>Códigos X Cifras</h3>
+<p><b>Códigos: </b> fazem substituição simples de letras por símbolos, ex.: Código Morse.</p>
+<p><b>Cifras: </b> usam regras para transformar uma mensagem original em uma mensagem codificada. Normalmente, estas regras recebem como entrada uma <b>chave secreta</b> que apenas os que estão se comunicando conhecem.</p>
+
+<p><b>Principais Termos:</b></p>
+  <ul>
+    <li><b>Texto Claro:</b> consiste na mensagem original (lingua nativa).</li>
+    <li><b>Texto Cifrado:</b> consiste na mensagem codificada (secreta ou ilegível).</li>
+    <li><b>Encriptação:</b> converter texto claro para cifrado.</li>
+    <li><b>Dencriptação:</b> restaurar o texto claro a partir do cifrado.</li>
+    <li><b>Criptografia:</b> Estuda como codificar informações para protegê-las.</li>
+    <li><b>Criptoanálise:</b> Técnicas para decifrar mensagens sem conhecer a codificação (leigos chamam de “quebrar o código”).</li>
+    <li><b>Criptologia:</b> Consiste na criptografia e criptoanálise juntas.</li>
+  </ul>
+
+<p><b>Modelo de Cifra Simétrica:</b></p>
+<p> Também chamada de encriptação convencional ou de chave única, era o único tipo em uso antes do desenvolvimento da encriptação por chave pública na década de 1970.</p>
+![image](https://github.com/daneneutzling/seguranca_sistemas/assets/91130447/4e419692-61fb-40c0-b632-d01e477449ee)
+
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
