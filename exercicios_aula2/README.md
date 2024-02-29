@@ -14,13 +14,17 @@
 <h3>Ameaça X Ataque</h3>
 <p><b>Ameaça: </b> possível perigo a explorar uma vulnerabilidade, ou seja, uma brecha de violação de segurança.</p>
 <p><b>Ataque: </b> ataque ao sistema, derivado de uma ameaça inteligente, ou seja, violar a segurança do sistema.</p>
+
 <ul>
   <li><b>Ataques Passivos:</b>
     <p>tenta descobrir ou utilizar informações do sistema, mas não afeta os seus recursos.</p>
-    <p>Objetivo: obter informações que estão sendo transmitidas.</p>
-    <p><i>Vazamento de conteúdo de mensagem:</i> acesso a informações sensíveis/confidenciais.</p>
-    <p><i>Análise de tráfego:</p> captura de dados.</p>
+    <p>O objetivo é obter informações que estão sendo transmitidas e pode ser subdividido em:</p>
+    <ul>
+      <ol><b>Vazamento de conteúdo de mensagem:</b> acesso a informações sensíveis/confidenciais.</ol>
+      <ol><b>Análise de tráfego:</b> captura de dados.</ol>
+    </ul>
   </li>
+  
   <li><b>Ataques Ativos:</b>
     <p>tenta alterar recursos do sistema ou afetar sua operação.</p>
     <p>Esses ataques envolvem alguma modificação do fluxo de dados ou a criação de um fluxo falso.</p>
