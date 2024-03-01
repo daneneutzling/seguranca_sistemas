@@ -64,16 +64,16 @@
 <h3>Sistemas Criptográficos</h3>
 <p>São caracterizados ao londo de três dimensões independentes:</p>
 <ol>
-  <li><b>O tipo das operações usadas para transformar texto claro em texto cifrado.</b> Todos os algoritmos de encriptação são baseados em dois princípio gerais:</li>
+  <li type="1"><b>O tipo das operações usadas para transformar texto claro em texto cifrado.</b> Todos os algoritmos de encriptação são baseados em dois princípio gerais:</li>
   <ul>
     <li><b>substituição</b>, em que cada elemento no texto claro (bit, letra, grupo de bits ou letras) é mapeado em outro elemento;</li>
     <li><b>transposição</b>, em que os elementos no texto claro são rearranjados. O requisito fundamental é que nenhuma informação seja perdida (que todas as operações sejam reversíveis).</li>
   </ul>
   
-  <li><b>O número de chaves usadas.</b> Se tanto o emissor quanto o receptor utilizarem a mesma chave, o sistema é considerado de encriptação simétrica, de chave única, de chave secreta ou convencional. Se emissor e receptor usarem chaves diferentes, o sistema é considerado de encriptação assimétrica, de duas chaves ou de chave pública</li>
+  <li type="1"><b>O número de chaves usadas.</b> Se tanto o emissor quanto o receptor utilizarem a mesma chave, o sistema é considerado de encriptação simétrica, de chave única, de chave secreta ou convencional. Se emissor e receptor usarem chaves diferentes, o sistema é considerado de encriptação assimétrica, de duas chaves ou de chave pública</li>
 
-  <li><b>O modo em que o texto claro é processado:</b></li>
-  <ul>
+  <li type="1"><b>O modo em que o texto claro é processado:</b></li>
+  <ul style="list-style-type: circle;">
     <li>Uma <b>cifra de bloco</b> processa a entrada de um bloco de elementos de cada vez, produzindo um de saída para cada de entrada.</li>
     <li>Uma <b>cifra em fluxo</b> processa os elementos da entrada continuamente, proporcionando a saída de um elemento de cada vez.</li>
   </ul>
