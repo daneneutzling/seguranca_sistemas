@@ -39,11 +39,6 @@
 
 <h3>Criptografia:</h3>
 <p>É o processo de transformar informações legíveis em um formato ilegível e incompreensível, com objetivo de proteger as informações.</p>
-
-<h3>Códigos X Cifras</h3>
-<p><b>Códigos: </b> fazem substituição simples de letras por símbolos, ex.: Código Morse.</p>
-<p><b>Cifras: </b> usam regras para transformar uma mensagem original em uma mensagem codificada. Normalmente, estas regras recebem como entrada uma <b>chave secreta</b> que apenas os que estão se comunicando conhecem.</p>
-
 <p><b>Principais Termos:</b></p>
   <ul>
     <li><b>Texto Claro:</b> consiste na mensagem original (lingua nativa).</li>
@@ -54,20 +49,35 @@
     <li><b>Criptoanálise:</b> Técnicas para decifrar mensagens sem conhecer a codificação (leigos chamam de “quebrar o código”).</li>
     <li><b>Criptologia:</b> Consiste na criptografia e criptoanálise juntas.</li>
   </ul>
-
-<p><b>Modelo de Cifra Simétrica:</b></p>
-<p> Também chamada de encriptação convencional ou de chave única, era o único tipo em uso antes do desenvolvimento da encriptação por chave pública na década de 1970.</p>
-<img src="https://github.com/daneneutzling/seguranca_sistemas/assets/91130447/4e419692-61fb-40c0-b632-d01e477449ee">
-
 <br>
 
+<h3>Códigos X Cifras</h3>
+<p><b>Códigos: </b> fazem substituição simples de letras por símbolos, ex.: Código Morse.</p>
+<p><b>Cifras: </b> usam regras para transformar uma mensagem original em uma mensagem codificada. Normalmente, estas regras recebem como entrada uma <b>chave secreta</b> que apenas os que estão se comunicando conhecem.</p>
+<br>
 
+<h3>Modelo de Cifra Simétrica:</h3>
+<p> Também chamada de encriptação convencional ou de chave única, era o único tipo em uso antes do desenvolvimento da encriptação por chave pública na década de 1970.</p>
+<img src="https://github.com/daneneutzling/seguranca_sistemas/assets/91130447/4e419692-61fb-40c0-b632-d01e477449ee">
+<br>
 
+<h3>Sistemas Criptográficos</h3>
+<p>São caracterizados ao londo de três dimensões independentes:</p>
+<ol>
+  <li><b>O tipo das operações usadas para transformar texto claro em texto cifrado.</b> Todos os algoritmos de encriptação são baseados em dois princípio gerais:</li>
+  <ul>
+    <li><b>substituição</b>, em que cada elemento no texto claro (bit, letra, grupo de bits ou letras) é mapeado em outro elemento;</li>
+    <li><b>transposição</b>, em que os elementos no texto claro são rearranjados. O requisito fundamental é que nenhuma informação seja perdida (que todas as operações sejam reversíveis).</li>
+  </ul>
+  
+  <li><b>O número de chaves usadas.</b> Se tanto o emissor quanto o receptor utilizarem a mesma chave, o sistema é considerado de encriptação simétrica, de chave única, de chave secreta ou convencional. Se emissor e receptor usarem chaves diferentes, o sistema é considerado de encriptação assimétrica, de duas chaves ou de chave pública</li>
 
-
-
-
-
+  <li><b>O modo em que o texto claro é processado:</b></li>
+  <ul>
+    <li>Uma <b>cifra de bloco</b> processa a entrada de um bloco de elementos de cada vez, produzindo um de saída para cada de entrada.</li>
+    <li>Uma <b>cifra em fluxo</b> processa os elementos da entrada continuamente, proporcionando a saída de um elemento de cada vez.</li>
+  </ul>
+</ol>
 
 
 
