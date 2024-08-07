@@ -1,0 +1,10 @@
+5. O texto cifrado a seguir foi gerado usando um algoritmo de substituição simples: 
+53‡‡†305))6*;4826)4‡.)4‡);806*;48†8¶60))85;;]8*;:‡*8†83 (88)5*†;46(;88*96*?;8)*‡(;485);5*†2:*‡(;4956*2(5*-4)8¶8* ;4069285);)6†8)4‡‡;1(‡9;48081;8:8‡1;48†85;4)485†528806*81 (‡9;48;(88;4(‡?34;48)4‡;161;:188;‡?;
+
+Decripte essa mensagem. Dicas:
+a) a letra que ocorre com mais frequência em inglês é e. portanto, o primeiro ou segundo (ou talvez terceiro?) caractere mais comum na mensagem provavelmente signifique e. 
+b) a palavra mais comum em inglês é the. use esse fato para adivinhar os caracteres que representam t e h (the and tha ent ion tio for nde has nce edt tis oft sth men).
+c) decifre o restante da mensagem deduzindo outras palavras.
+d) a mensagem resultante está em inglês, mas pode não fazer muito sentido em uma primeira leitura.
+e) As letras repetidas em sequência no inglês mais comuns são: ss, ee, tt, ff, ll, mm, oo (não em sequencia: of, to, in, it, is, be, as, at, so, we, he, by, or, on, do, if, me, my, up, an, go, no, us, am).
+f) Use o programa freqAnalysis.py para auxílio.

@@ -1,0 +1,77 @@
+
+5. Cifra de Substituição
+
+Texto cifrado:
+53‡‡†305))6*;4826)4‡.)4‡);806*;48†8¶60))85;;]8*;:‡*8†83 (88)5*†;46(;88*96*?;8)*‡(;485);5*†2:*‡(;4956*2(5*-4)8¶8* ;4069285);)6†8)4‡‡;1(‡9;48081;8:8‡1;48†85;4)485†528806*81 (‡9;48;(88;4(‡?34;48)4‡;161;:188;‡?;
+
+Contagem de Simbolos:
+. = 1
+] = 1
+- = 1
+¶ = 2
+  = 3
+? = 3
+3 = 4
+: = 4
+2 = 5
+9 = 5
+0 = 6
+1 = 7
+† = 8
+( = 9
+6 = 11
+5 = 12
+* = 14
+‡ = 15
+) = 16
+4 = 19
+; = 27
+8 = 34
+
+Texto claro:
+agoodglassinthebishopshostelinthededilsseattwentyonedegreesandthirteenminutesnortheastandbynorthmainbranchsedenthlimbeastsideshootfromthelefteyeofthedeathsheadabeelinefromthetreethroughtheshotfiftyfeetout
+
+A GOOD GLASS IN THE BISHOP'S HOSTEL IN THE DEVIL'S SEAT TWENTY-ONE DEGREES AND THIRTEEN MINUTES NORTH-EAST AND BY NORTH MAIN BRANCH SEVENTH LIMB EAST SIDE SHOOT FROM THE LEFT EYE OF THE DEATH'S HEAD A BEE-LINE FROM THE TREE THROUGH THE SHOT FIFTY FEET OUT
+
+Livro de Edgar Allan Poe entitulado "The Gold-Bug".
+
+6. Cifra Playfair
+
+Matriz (5x5):
+M F H i/J K
+U N O P Q
+Z V W X Y
+E L A R G
+D S T B C
+
+Texto Claro:
+Must see you over Cadogan West. Coming at once.
+
+Texto Cifrado:
+UZ TB DL GZ PN NW LG TG TU ER OV LD BD UH FP ER HW QS RZ
+UZTBDLGZPNNWLGTGTUEROVLDBDUHFPERHWQSRZ
+
+7. Cifra Playfair
+
+Texto Cifrado:
+KXJEY  UREBE  ZWEHE  WRYTU  HEYFS 
+KREHE  GOYFI  WTTTU  OLKSY  CAJPO 
+BOTEI  ZONTX  BYBWT  GONEY  CUZWR 
+GDSON  SXBOU  YWRHE  BAAHY  USEDQ
+
+Matriz:
+R O Y A L 
+N E W Z D 
+V B C F G
+H I K M P
+Q S T U X
+
+Texto Claro:
+PTBOATONEOWZNIWEYRUTINACTIONINBLACKEXTXTUTLOITTWOMILESSWMEREXTCOVEXCREWOFTWZLVEXREXSEST ANY INFORMATION X
+
+PT BOAT ONE OWE NINE LOST IN ACTION IN BLACKETT STRAIT TWO MILES SW MERESU COVE X CREW OF TWELVE X REQUEST ANY INFORMATION.
+
+8.
+Qual a chave? leg
+Qual o texto claro? explanation
+Texto cifrado: pbvwetlxozr
