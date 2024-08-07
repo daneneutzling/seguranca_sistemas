@@ -1,32 +1,33 @@
 def exerc1():
+    symbols = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 !?.'
     action = ""
+    answer = ""
 
     while action != 'EXIT':
         action = input("Do you wish to encrypt or decrypt a message or exit?").upper()
-        messsage = input("Enter youor message:").upper()
+        message = input("Enter your message:")
         key = int(input("Enter the key number (1-52): "))
+        answer = ""
 
-        if action == 'ENCRYPT':
-            answer = "Your translated text is: " + asnwer_cripto
+        for symbol in message: # simbolo na mensagem 
+            if symbol in symbols: # simbolo na lista de simbolos
+                index = symbols.find(symbol) # pega o simbolo em destaque e procura ele na lista de simbolos, joga pra variavel
+                    
+                if action == 'ENCRYPT': # se for isso, soma o index atual com a chave
+                    indexAnswer = index + key
+                elif action == "DECRYPT": # se for isso, diminui o valor do index com a chave
+                    indexAnswer = index - key
 
-        else:
-            answer = "Your translated text is: " + asnwer_cripto
+                if indexAnswer >= len(symbols): # ve se o valor do index ta acima do tamanho da lista de simbolos
+                    indexAnswer = indexAnswer - len(symbols) # se ta maior, ele diminui
+                elif indexAnswer < 0:
+                    indexAnswer = indexAnswer + len(symbols) # se ta menor, ele soma
 
-# Do you wish to encrypt or decrypt a message or exit?
-# encrypt
-# Enter your message:
-# The sky above the port was the color of television, tuned to a dead channel.
-# Enter the key number (1-52)
-# 13
-# Your translated text is:
-# gur FxL noBIr Gur CBEG JnF Gur pByBE Bs GryrIvFvBA, GHArq GB n qrnq punAAry.
-# Do you wish to encrypt or decrypt a message or exit?
-# decrypt
-# Enter your message:
-# gur FxL noBIr Gur CBEG JnF Gur pByBE Bs GryrIvFvBA, GHArq GB n qrnq punAAry.
-# Enter the key number (1-52)
-# 13
-# Your translated text is:
-# The sky above the port was the color of television, tuned to a dead channel.
-# Do you wish to encrypt or decrypt a message or exit?
-# exit
+                answer = answer + symbols[indexAnswer] # concatena o que já tem com o simbolo da lista, de acordo com o index
+
+            else:
+                answer = answer + symbol # caso o simbolo que o usuario digitou nao exista na lista de simbolo, nao faz nada, apenas junta
+
+        print("Your translated text is: " + answer)
+
+exerc1()
