@@ -1,0 +1,21 @@
+Contrab serve para agendar tarefas para serem executadas, por exemplo:
+1 -> Agendar a tarefa de executar o script amanhã a meia-noite
+     0 0 * * * /home/dani/arq_script.sh
+
+2-> Agendar o backup de um diretório para todas segundas-feiras às 21:30h
+    30 21 * * 1 cp /home/dani/daniela /home/dani/backup
+
+3 -> Agendar para apagar os arquivos do diretório nas terças-feiras às 12:00h
+     0 12 * * 2 rm /home/dani/daniela
+
+/**************************************************/
+
+Xargs serve para receber uma lista de entradas e executar o comando para cada argumento recebido.
+1 -> Busco todos os arquivos com extensão .txt e, para cada um deles, executo rm (remove)
+     find . -name "*.txt" | xargs rm
+
+2 -> Listo todos arquivos com extensão .jpg e converto cada um deles para .png
+     ls *.jpg | xargs -I {} convert {} {}.png
+
+3 -> Busco todos os arquivos com extensão .txt e imprimo os ultimos 5 itens de cada arquivo
+     find . -name "*.txt" | xargs -I {} tail -n 5 {}
